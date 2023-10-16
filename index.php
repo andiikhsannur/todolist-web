@@ -59,10 +59,13 @@
                 </label>
                 <input type="date" class="form-control" name="tgl_akhir" id="inputTanggalAkhir" placeholder="Tanggal Akhir" value="<?php echo $tgl_akhir ?>">
             </div>
+            <!-- menurunkan posisi submit -->
             <div class="col d-flex">
                 <button type="submit" class="btn btn-primary rounded-pill px-3 mt-auto" name="simpan">Simpan</button>
             </div>
         </form>
+        <br>
+        <br>
         <!-- Table-->
         <table class="table table-hover">
         <!--thead atau baris judul-->
