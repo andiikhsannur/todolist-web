@@ -84,9 +84,7 @@
                 <!-- Kode PHP untuk menampilkan semua isi dari tabel urut
                 berdasarkan status dan tanggal awal-->
                 <?php
-                $result = mysqli_query(
-                    $mysqli,"SELECT * FROM kegiatan ORDER BY status,tgl_awal"
-                    );
+                $result = mysqli_query($mysqli,"SELECT * FROM kegiatan ORDER BY status,tgl_awal");
                 $no = 1;
                 while ($data = mysqli_fetch_array($result)) {
                 ?>
